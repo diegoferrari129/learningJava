@@ -1,4 +1,4 @@
-public class Main {
+public class Print {
     public static void main(String[] args) {
         // dico al sistema di mandare qualcosa fuori e di stamparlo
         System.out.print("Hello world!");
