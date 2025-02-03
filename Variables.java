@@ -17,5 +17,12 @@ public class Variables {
         // cambia il valore della variabile x
         x = 3;
         System.out.println(x);
+
+        int z = x + y;
+        System.out.println(z);
+
+        String nome = "Diego";
+        double temperatura = 37.5;
+        System.out.println("Ciao " + nome + ", la tua temperatura e' " + temperatura + " gradi.");
     }
 }
