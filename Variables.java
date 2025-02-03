@@ -7,19 +7,19 @@
 
 public class Variables {
     public static void main(String[] args) {
+        // Dichiarazione di una variabile
         int x;
         x = 1;
-        System.out.println(x);
+        System.out.println("Variabile x: " + x);
         // oppure
         int y = 2;
-        System.out.println(y);
-
+        System.out.println("Variabile y: " + y);
         // cambia il valore della variabile x
         x = 3;
-        System.out.println(x);
+        System.out.println("Variabile x modificiata: " + x);
 
         int z = x + y;
-        System.out.println(z);
+        System.out.println("Somma delle variabili x e y: " + z);
 
         String nome = "Diego";
         double temperatura = 37.5;
