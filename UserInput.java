@@ -18,7 +18,10 @@ public class UserInput {
         int age = scanner.nextInt();
         scanner.nextLine();
 
-        System.out.println("Ciao: " + name + " " + surname + "!");
-        System.out.println("Hai: " + age + " anni e vivi a");
+        System.out.println("Inserisci la tua citta: ");
+        String city = scanner.nextLine();
+
+        System.out.println("Ciao " + name + " " + surname + "!");
+        System.out.println("Hai " + age + " anni e vivi a " + city);
     }
 }
