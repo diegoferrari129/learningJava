@@ -14,6 +14,11 @@ public class UserInput {
         System.out.println("Inserisci il tuo cognome: ");
         String surname = scanner.nextLine();
 
+        System.out.println("Inserisci la tua eta: ");
+        int age = scanner.nextInt();
+        scanner.nextLine();
+
         System.out.println("Ciao: " + name + " " + surname + "!");
+        System.out.println("Hai: " + age + " anni e vivi a");
     }
 }
