@@ -11,6 +11,9 @@ public class UserInput {
         System.out.println("Inserisci il tuo nome: ");
         String name = scanner.nextLine();
 
-        System.out.println("Ciao: " + name);
+        System.out.println("Inserisci il tuo cognome: ");
+        String surname = scanner.nextLine();
+
+        System.out.println("Ciao: " + name + " " + surname + "!");
     }
 }
